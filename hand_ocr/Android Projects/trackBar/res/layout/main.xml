@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hello"
+    />
+<SeekBar
+android:id="@+id/seekBar1"
+android:layout_height="wrap_content"
+android:layout_width="match_parent">
+</SeekBar>
+
+<TextView
+android:id="@+id/textView1"
+android:text="TextView"
+android:layout_height="wrap_content"
+android:layout_width="216dp"
+android:layout_weight="0.04">
+</TextView>
+<ImageView android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_width="wrap_content" android:id="@+id/imageView1"></ImageView>
+
+</LinearLayout>

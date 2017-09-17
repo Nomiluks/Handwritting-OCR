@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash">Splash Screen </string>
+    <string name="menu">Main Menu</string>
+    <string name="capture">Camera Preview </string>
+    <string name="select"> Select an image </string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="helpText">1:Wait for loading OCR.
+    					  \n2:Select camera from MENU for instant result. After taking picture press save
+    					  button. After saving, crop the text area and again press save button. A screen will open
+    					  to set cutting characters. After adjusting trackbar press process button to get text.
+    					  \n3:Select Gallery from mobile to get the image from gallery or any saved image in  mobile and follow the same camera flow steps
+    					  \n4:After getting text you will be able to speak it by pressing speak button or go back to menu</string>
+
+    <string name="oneStep">One Step Processing</string>
+    <string name="twoStep">Two Step Processing</string>
+    <string name="app_name">Mobile Handwritten Ocr</string>
+    <string name="app_logo_bottom">Mobile Handwritten Ocr</string>
+    <string name="tapHere">Tap here to select image</string>
+</resources>

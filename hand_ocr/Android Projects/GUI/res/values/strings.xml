@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash">Splash Screen </string>
+    <string name="menu">OCR</string>
+    <string name="capture">Camera Preview </string>
+    <string name="select"> Select an image </string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+     <string name="app_logo_top">WELCOME TO OCR</string>
+    <string name="app_logo_bottom">Loading .... </string>
+    <string name="MainMenu">OCR </string>
+    <string name="version_info">Version 1.0.0 \n Copyright: GIFT</string>
+    <string name="helpText">Capture the image, crop the text area and press "OK" button.\nTo convert in text and voice simultaneously choose the settings to one step processing.
+\nTo read text before listening voice select two step processing settings.</string>
+
+    <string name="oneStep">One Step Processing</string>
+    <string name="twoStep">Two Step Processing</string>
+    <string name="app_name">OCR printed</string>
+    <string name="tapHere">Tap here to select image</string>
+</resources>

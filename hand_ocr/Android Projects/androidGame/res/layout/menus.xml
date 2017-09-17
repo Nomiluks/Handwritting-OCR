@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/backii">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:textSize="13pt" android:text="@string/MainMenu" android:gravity="center" android:textStyle="bold" android:textColor="@color/colo"></TextView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout2" android:layout_height="match_parent">
+        <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_alignParentTop="true" android:id="@+id/ListView_menu"></ListView>
+    </RelativeLayout>
+</LinearLayout>

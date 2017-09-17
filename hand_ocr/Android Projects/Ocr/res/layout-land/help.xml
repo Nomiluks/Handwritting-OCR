@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/bkgrnd" 
+android:orientation="vertical"
+android:weightSum="1" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center">
+<TextView android:layout_height="wrap_content"
+android:text="@string/help"
+android:id="@+id/textview1" 
+android:layout_width="match_parent"
+android:textSize="@dimen/logo_size"
+android:textColor="@color/logo_color"
+></TextView>
+
+
+<TextView android:text="@string/helpText"
+android:id="@+id/textview1" 
+android:textSize="@dimen/text_size"
+android:textColor="@color/logo_color"
+android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/linearLayout1" android:gravity="center" android:weightSum="1">
+    <ImageButton android:src="@drawable/back" android:layout_height="wrap_content" android:id="@+id/backme" android:layout_weight="0.04" android:layout_width="wrap_content"></ImageButton>
+</LinearLayout>
+</LinearLayout>

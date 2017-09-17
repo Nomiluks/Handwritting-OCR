@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images" android:id="@+id/a">
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/game"
+    android:gravity="center"
+    android:textSize="@dimen/logo_size"
+    android:textColor="@color/colo" android:textStyle="bold"/>
+<TextView android:layout_height="wrap_content" android:textSize="@dimen/logo_size" android:text="@string/write" android:textColor="@color/colo" android:id="@+id/textView1" android:layout_width="match_parent" android:gravity="center"></TextView>
+<EditText 
+android:layout_height="wrap_content" 
+android:enabled="false" 
+android:editable="true" android:layout_width="match_parent" android:id="@+id/editText1" android:singleLine="false" android:gravity="left">
+</EditText>
+<TableRow android:layout_width="match_parent" android:id="@+id/tableRow1" android:layout_height="wrap_content" android:gravity="center">
+    <Button android:text="OK" android:layout_height="wrap_content" android:layout_width="80sp" android:id="@+id/ok" android:gravity="center" android:textColor="#008000"></Button>
+    <Button android:text="Clear" android:layout_height="wrap_content" android:id="@+id/clear" android:layout_width="60sp"></Button>
+    <Button android:layout_height="wrap_content" android:text="space" android:id="@+id/space" android:layout_width="60sp"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/backSpace" android:text="Back" android:layout_width="60sp"></Button>
+</TableRow>
+    <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="a" android:id="@+id/aa"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="b" android:id="@+id/b"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="c" android:id="@+id/c"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="d" android:id="@+id/d"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="e" android:id="@+id/e"></Button>
+        <Button android:text="f" android:layout_width="40sp" android:layout_height="40sp" android:id="@+id/f"></Button>
+    </LinearLayout>
+     <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="g" android:id="@+id/g"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="h" android:id="@+id/h"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="i" android:id="@+id/i"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="j" android:id="@+id/j"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="k" android:id="@+id/k"></Button>
+        <Button android:text="l" android:layout_width="40sp" android:layout_height="40sp" android:id="@+id/l"></Button>
+    </LinearLayout>
+     <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="m" android:id="@+id/m"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="n" android:id="@+id/n"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="o" android:id="@+id/o"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="p" android:id="@+id/p"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="q" android:id="@+id/q"></Button>
+        <Button android:text="r" android:layout_width="40sp" android:layout_height="40sp" android:id="@+id/r"></Button>
+    </LinearLayout>
+     <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="s" android:id="@+id/s"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="t" android:id="@+id/t"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="u" android:id="@+id/u"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="v" android:id="@+id/v"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="w" android:id="@+id/w"></Button>
+        <Button android:text="x" android:layout_width="40sp" android:layout_height="40sp" android:id="@+id/x"></Button>
+    </LinearLayout>
+     <LinearLayout android:layout_gravity="center" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="y" android:id="@+id/y"></Button>
+        <Button android:layout_height="40sp" android:layout_width="40sp" android:text="z" android:id="@+id/z"></Button>
+       
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

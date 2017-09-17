@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:layout_width="match_parent" android:weightSum="1" android:layout_gravity="bottom" android:gravity="center">
+    <TextView android:text="@string/app_logo_top" android:layout_height="wrap_content" android:id="@+id/TOPTiltelText" android:gravity="center" android:layout_width="match_parent" android:fadeScrollbars="true" android:textSize="@dimen/logo_size" android:textColor="@color/logo_color"></TextView>
+        <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+                <TableRow android:gravity="center" android:layout_width="match_parent" android:layout_gravity="center" android:id="@+id/tableRow1" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/imageView2" android:src="@drawable/images" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center_vertical|center_horizontal"></ImageView>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+        <TextView android:text="@string/app_logo_bottom" android:layout_height="wrap_content" android:id="@+id/Bottomtext" android:gravity="center" android:layout_width="match_parent" android:textSize="@dimen/logo_size" android:textColor="@color/logo_color"></TextView>
+        <ProgressBar android:id="@+id/progBar1" android:layout_width="wrap_content" android:indeterminateBehavior="repeat" android:layout_height="wrap_content"></ProgressBar>
+        <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView android:text="@string/version_info" android:layout_width="match_parent" android:layout_alignParentBottom="true" android:id="@+id/textView1" android:background="@color/version_background" android:gravity="center_horizontal|center" android:layout_height="wrap_content" android:textColor="@color/version_color"></TextView>
+        </RelativeLayout>
+</LinearLayout>

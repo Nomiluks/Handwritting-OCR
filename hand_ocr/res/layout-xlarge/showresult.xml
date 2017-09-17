@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="@drawable/bkgrnd" 
+  android:layout_height="match_parent" android:gravity="center">
+    <LinearLayout 
+    android:layout_width="match_parent" 
+    android:id="@+id/linearLayout1" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    >
+        <ImageView 
+	        android:id="@+id/imageView1"
+        android:layout_width="170dp" android:layout_height="170dp">
+        </ImageView>
+        <TextView 
+	        android:layout_height="wrap_content" 
+	        android:text="TextView" 
+	        android:layout_width="wrap_content" 
+	        android:id="@+id/setresult"
+	        android:layout_marginTop="5dp"
+	        android:textColor="#000000"
+        >
+        </TextView>
+    </LinearLayout>
+    
+    <RelativeLayout 
+    android:id="@+id/linearLayout4"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/linearLayout3"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" 
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="20dp"
+>
+	 <ImageButton 
+	 	android:src="@drawable/backfree" 
+	 	android:id="@+id/for_menu" 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="wrap_content">
+	 	</ImageButton>
+	<ImageButton 
+		android:src="@drawable/speakfree" 
+		android:id="@+id/speaking" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</ImageButton>
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<com.wimm.framework.view.ViewTray
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_tray"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#222" >
+        <TextView
+            android:id="@+id/connection_tray_title"
+            android:text="@string/header_title_disconnected"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:background="@drawable/header"/>
+        <TextView
+            android:id="@+id/connection_tray_status_text"
+            android:text="@string/status_no_paired_device_text"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:padding="8dp" />
+        <com.wimm.framework.widget.Button
+            android:id="@+id/connect_button"
+            android:clickable="false"
+            android:text="@string/connect_button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#222" >
+        <TextView
+            android:id="@+id/conversation_tray_title"
+            android:text="@string/header_title_disconnected"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:background="@drawable/header" />
+		<com.wimm.demo.wimmbtdemo.ConversationListView
+			android:id="@+id/conversation_tray_messages"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:stackFromBottom="true"
+		    android:transcriptMode="alwaysScroll"
+		    android:layout_weight="1" />
+        <com.wimm.framework.widget.Button
+            android:id="@+id/write_message_button"
+            android:clickable="false"
+            android:text="@string/write_message_button_title"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+</com.wimm.framework.view.ViewTray>

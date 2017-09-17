@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pkg.app.ocr"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="9" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".OCRguiActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	        <activity android:name=".MenuActivity"> </activity>
+        <activity android:name=".SettingActivity"> </activity>
+        <activity android:name=".SelectActivity"> </activity> 
+        <activity android:name=".HelpActivity"> </activity>                
+        <activity android:name=".ImageSelectionActivity"> </activity>
+        <activity android:name=".CaptureImageActivity"> </activity>
+        <activity android:name=".croper"> </activity>
+        <activity android:name=".showPicture"> </activity>
+        <activity android:name=".CaptureImageResultActivity"> </activity>
+        <activity android:name=".SpeakActivity"> </activity>
+        <activity android:name=".AdjustCharactersActivity"> </activity>
+        <activity android:name=".TextOutputActivity"> </activity>
+        <activity android:name=".ModeSelectionActivity"> </activity>
+    </application>
+    <supports-screens
+          android:largeScreens="true"
+          android:normalScreens="true"
+          android:smallScreens="true"
+          android:anyDensity="true" />
+    <uses-permission android:name="android.permission.CAMERA" />
+ 	<uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"></uses-permission>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+</manifest>

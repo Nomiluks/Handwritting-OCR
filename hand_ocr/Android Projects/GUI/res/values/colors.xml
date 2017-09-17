@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="logo_color">#FFFF0F</color>
+<color name="menu_name">#000000</color>
+<color name="version_color">#F0F0F0</color>
+<color name="version_background">#1A1A48</color>
+<color name="white">#FFFFFF</color>
+<color name="green">#00FF00</color>
+
+</resources>

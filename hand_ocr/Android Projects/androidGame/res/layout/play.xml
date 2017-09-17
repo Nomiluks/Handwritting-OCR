@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images" android:isScrollContainer="true" android:layout_width="match_parent" android:gravity="center">
+    <LinearLayout android:id="@+id/linearLayout5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/colo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Attempts" android:textSize="25sp" android:id="@+id/textView2"></TextView>
+        <EditText android:id="@+id/editText2" android:text="0" android:editable="true" android:gravity="center" android:layout_width="60sp" android:layout_height="40sp" android:enabled="false"></EditText>
+    </LinearLayout>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guess_nmae" android:textSize="@dimen/logo_size" android:gravity="center" android:textColor="@color/colo" android:layout_gravity="center"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout6" android:layout_gravity="center" android:gravity="center">
+        <EditText android:text="" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:gravity="center" android:id="@+id/editText1" android:enabled="false" android:layout_width="match_parent"></EditText>
+    </LinearLayout>
+<LinearLayout android:gravity="center" android:layout_height="wrap_content" android:paddingRight="2pt" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+    <Button android:id="@+id/ran2" android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran4"></Button>
+    <Button android:id="@+id/ran10" android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran8" android:text="Guess!"></Button>
+</LinearLayout>
+<LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran6"></Button>
+    <Button android:id="@+id/ran7" android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran5" android:text="Guess!"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran13" android:text="Guess!"></Button>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:gravity="center">
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran9"></Button>
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran11"></Button>
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran12"></Button>
+    <Button android:id="@+id/ran3" android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:gravity="center">
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran14"></Button>
+    <Button android:text="Guess!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran15"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ran1" android:text="Guess!"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/ran16" android:text="Guess!"></Button>
+</LinearLayout>  
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash">SplashScreen!</string>
+    <string name="app_name">Quiz Game</string>
+    <string name="help">HelpScreen!</string>
+    <string name="scores">ScoresScreen!</string>
+    <string name="setting">SettingScreen!</string>
+    <string name="game">Make your Name</string>
+    <string name="write">Write Your name please</string>
+    <string name="menus">MenusScreen!</string>
+    <string name="app_logo_top">Make your Name</string>
+    <string name="app_logo_bottom">HaVe FuN WiTh yOuR NaMe</string>
+    <string name="version_info">Version 1.0.0 \n Copyright: B@ck Benchers</string>
+    
+    <string name="MainMenu">Main Menu </string>
+    <string name="menu_item_play">Play </string>
+    <string name="menu_item_setting">Setting </string>
+    <string name="menu_item_help">Help </string>
+    <string name="menu_item_score">Score </string>
+    <string name="guess_nmae">Guess Your name In These Boxes</string>
+    
+</resources>

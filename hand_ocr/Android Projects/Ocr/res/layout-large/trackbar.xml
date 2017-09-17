@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bkgrnd" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:gravity="center_horizontal">
+<TextView
+android:id="@+id/textView1"
+android:text="Adjust Character"
+android:textColor="#000000"
+android:layout_weight="0.04" android:layout_width="match_parent" android:layout_height="wrap_content">
+</TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_weight="0.04" android:id="@+id/linearLayout1" android:layout_gravity="center" android:gravity="center|center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:baselineAligned="true">
+    <ImageView android:id="@+id/imageView1" android:layout_height="300dp" android:layout_width="300dp"></ImageView>
+    <SeekBar android:id="@+id/seekBar1" android:layout_gravity="center" android:layout_width="300dp" android:layout_height="50dp"></SeekBar>
+</LinearLayout>
+  <LinearLayout 
+    android:id="@+id/linearLayout2"
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/linearLayout3"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" 
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+   android:layout_height="wrap_content">
+      <Button android:layout_weight="0.04" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:text="Process" android:layout_height="wrap_content" android:id="@+id/ok"></Button>
+</LinearLayout>
+</LinearLayout>

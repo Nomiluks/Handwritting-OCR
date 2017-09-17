@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_gravity="center" android:gravity="center" android:background="@drawable/start_bckrnd">
+    <RelativeLayout 
+	    android:id="@+id/linearLayout1" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_centerHorizontal="true"
+	    android:orientation="horizontal" 
+	    android:gravity="bottom"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginTop="70dp"
+	    android:layout_marginBottom="70dp"
+	    android:layout_marginLeft="120dp"
+    >
+        <ImageButton 
+	        android:background="@drawable/buttonimage" 
+	        android:id="@+id/gamestartbutton" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip">
+        </ImageButton>
+    
+    </RelativeLayout>
+</RelativeLayout >

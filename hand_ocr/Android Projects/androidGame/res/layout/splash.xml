@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+    <TextView android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center_vertical|center_horizontal" android:id="@+id/TOPTiltelText" android:text="@string/app_logo_top" android:fadeScrollbars="true" android:textColor="@color/logo_color" android:textSize="@dimen/logo_size" android:layout_width="match_parent"></TextView>
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:gravity="center">
+            <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:src="@drawable/images"></ImageView>
+        </TableRow>
+    </TableLayout>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:id="@+id/Bottomtext" android:text="@string/app_logo_bottom" android:textSize="@dimen/logo_size" android:textColor="@color/logo_color"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView1" android:background="@color/version_background" android:text="@string/version_info" android:gravity="center" android:textColor="@color/version_color"></TextView>
+</LinearLayout>

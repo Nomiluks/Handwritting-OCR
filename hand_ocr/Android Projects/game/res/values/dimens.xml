@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="logo_size">10pt</dimen>
+<dimen name="version_size">5pt</dimen>
+<dimen name="version_spacing">3pt</dimen>
+<dimen name="button_size">70pt</dimen>
+<dimen name="button_spacing">3pt</dimen>
+<dimen name="item_size">10pt</dimen>
+
+</resources>

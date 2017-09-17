@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical"
+    android:id="@+id/screen" android:gravity="center">
+    <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/TableLayout1" >
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_height="wrap_content" android:visibility="visible"></ImageView>
+        <TextView android:text="@string/tapHere" android:layout_width="fill_parent" android:textSize="20sp" android:id="@+id/txtAnswer" android:layout_height="wrap_content"></TextView>
+    </TableLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_width="wrap_content">
+        <ImageButton android:layout_width="wrap_content" android:id="@+id/menucam" android:layout_height="wrap_content" android:src="@drawable/homemenu"></ImageButton>
+        <ImageButton android:src="@drawable/tts" android:layout_width="wrap_content" android:id="@+id/speakselect" android:layout_height="wrap_content"></ImageButton>
+    </LinearLayout>
+</RelativeLayout>

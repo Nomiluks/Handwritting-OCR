@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="1" android:background="@color/white">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_alignParentTop="true" android:text="@string/MainMenu" android:textSize="15pt" android:textColor="@color/menu_name" android:gravity="center" android:layout_width="match_parent" android:background="@drawable/backk"></TextView>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout2" android:layout_gravity="center" android:layout_weight="0.41" android:layout_height="match_parent" android:gravity="top" android:background="@drawable/background1">
+        <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="wrap_content">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="wrap_content">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_videos_folder_2" android:id="@+id/cam"></ImageButton>
+                    <ImageButton android:layout_width="wrap_content" android:layout_marginLeft="25dp" android:layout_height="wrap_content" android:src="@drawable/pictures512" android:id="@+id/galeri"></ImageButton>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/LinearLayout01">
+                    <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/maintenance" android:id="@+id/sett"></ImageButton>
+                    <ImageButton android:layout_width="wrap_content" android:layout_marginLeft="25dp" android:layout_height="wrap_content" android:src="@drawable/help" android:id="@+id/help"></ImageButton>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</LinearLayout>

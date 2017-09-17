@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:id="@+id/RelativeLayout1" android:layout_width="fill_parent" android:orientation="vertical" android:background="@drawable/background1">
+        <TextView android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:textColor="@color/logo_color" android:textSize="@dimen/logo_size" android:text="@string/settings" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+ 
+        <RadioGroup android:layout_centerHorizontal="true" android:layout_below="@+id/textView1" android:id="@+id/radioGroup1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal">
+        <RadioButton android:text="@string/oneStep" android:textColor="@color/logo_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio1step" android:checked="false"></RadioButton>
+        <RadioButton android:text="@string/twoStep" android:textColor="@color/logo_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio2step"></RadioButton>
+        </RadioGroup>
+        <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/LinearLayout1" android:layout_alignParentBottom="true" android:layout_alignParentRight="true">
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/accept" android:layout_height="wrap_content" android:id="@+id/accept"></ImageButton>
+                <ImageButton android:layout_width="wrap_content" android:src="@drawable/button_cancel" android:layout_height="wrap_content" android:id="@+id/cancel"></ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>

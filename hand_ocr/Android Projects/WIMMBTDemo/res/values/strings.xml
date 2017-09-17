@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<resources>
+	<string name="app_name">WIMMBTDemo</string>
+	<string name="header_title_disconnected">Disconnected</string>
+	<string name="header_title_connected">Connected</string>
+	<string name="header_title_connecting">Connecting...</string>
+	<string name="connect_button_title">Connect</string>
+	<string name="disconnect_button_title">Disconnect</string>
+	<string name="write_message_button_title">Write</string>
+	<string name="dialog_title">Enter Message</string>
+    <string name="status_no_paired_device_text">Did not find any Paired device. Please Pair device using settings app.</string>
+    <string name="status_connected_text">Connected to :\n</string>
+	<string name="status_connected">Connected to :\n</string>
+    <string name="status_connecting">Connecting to :\n</string>
+    <string name="status_disconnected">Click to initiate connection to : \n</string>
+</resources>

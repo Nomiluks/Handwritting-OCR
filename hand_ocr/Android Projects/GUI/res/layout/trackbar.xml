@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:gravity="center">
+<TextView
+android:id="@+id/textView1"
+android:text="Adjust noise of image"
+android:layout_height="wrap_content"
+android:layout_width="216dp"
+android:layout_weight="0.04">
+</TextView>
+<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1"></ImageView>
+<SeekBar
+android:id="@+id/seekBar1"
+android:layout_height="wrap_content"
+android:layout_width="match_parent" android:soundEffectsEnabled="true" android:scrollbarStyle="insideInset">
+</SeekBar>
+
+<TextView
+android:id="@+id/textView1"
+android:text=""
+android:layout_height="wrap_content"
+android:layout_width="216dp"
+android:layout_weight="0.04">
+</TextView>
+<Button android:text="Process" android:layout_width="wrap_content" android:id="@+id/ok" android:layout_height="wrap_content"></Button>
+
+</LinearLayout>
